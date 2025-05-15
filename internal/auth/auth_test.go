@@ -55,7 +55,7 @@ func TestGetAPIKey(t *testing.T) {
 			return h
 		}(),
 		want:    "",
-		wantErr: false,
+		wantErr: true,
 	},
 	}
 	for _, tt := range tests {
