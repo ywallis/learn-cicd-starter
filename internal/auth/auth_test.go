@@ -35,7 +35,7 @@ func TestGetAPIKey(t *testing.T) {
 		}(),
 		want:    "",
 		wantErr: true,
-	},{
+	}, {
 
 		name: "empty value",
 		// headers: http.Header{"Authorization": []string{"ApiKey abc"]}},
@@ -46,7 +46,7 @@ func TestGetAPIKey(t *testing.T) {
 		}(),
 		want:    "",
 		wantErr: true,
-	},{
+	}, {
 
 		name: "no field",
 		// headers: http.Header{"Authorization": []string{"ApiKey abc"]}},
