@@ -54,7 +54,7 @@ func TestGetAPIKey(t *testing.T) {
 			h := http.Header{}
 			return h
 		}(),
-		want:    "",
+		want:    "fd",
 		wantErr: true,
 	},
 	}
